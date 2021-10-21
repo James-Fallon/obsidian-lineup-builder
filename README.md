@@ -51,6 +51,11 @@ The SVG images used are from the [Wikimedia Commons](https://commons.wikimedia.o
 © [442-diamond](https://en.wikipedia.org/wiki/File:Association_football_4-4-2_diamond_formation.svg) / Wikimedia Commons User:Threner / [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
 
+### Special Thanks
+
+This wouldn't have been possible without using [THeK3nger's Chess Plugin](https://github.com/THeK3nger/obsidian-chessboard) as a reference.
+
+
 ## TODO
 
 - [ ] Add 5ATB Formations
