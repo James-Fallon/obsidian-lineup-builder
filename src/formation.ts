@@ -1,5 +1,5 @@
-import { FOUR_THREE_THREE, FOUR_FOUR_TWO, FOUR_TWO_THREE_ONE, FOUR_FOUR_TWO_DIAMOND } from "src/svgs";
-
+import { FOUR_FOUR_TWO, FOUR_FOUR_TWO_DIAMOND, FOUR_TWO_THREE_ONE, FOUR_THREE_THREE } from "./svgs";
+import { Formation } from "./ts/interfaces";
 
 export class FormationSVG {
     private svgString;
@@ -16,7 +16,21 @@ export class FormationSVG {
     }
 }
 
-export const fourFourTwo = new FormationSVG(FOUR_FOUR_TWO);
-export const fourTwoThreeOne = new FormationSVG(FOUR_TWO_THREE_ONE);
-export const fourThreeThree = new FormationSVG(FOUR_THREE_THREE);
-export const fourFourTwoDiamond = new FormationSVG(FOUR_FOUR_TWO_DIAMOND);
+export const formations: Formation[] = [
+    {
+        name: '442',
+        svg: new FormationSVG(FOUR_FOUR_TWO)
+    },
+    {
+        name: '433',
+        svg: new FormationSVG(FOUR_THREE_THREE)
+    },
+    {
+        name: '4231',
+        svg: new FormationSVG(FOUR_TWO_THREE_ONE)
+    },
+    {
+        name: '442-diamond',
+        svg: new FormationSVG(FOUR_FOUR_TWO_DIAMOND)
+    }
+];

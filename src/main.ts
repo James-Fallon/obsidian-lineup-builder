@@ -1,25 +1,6 @@
-import { fourFourTwo, fourFourTwoDiamond, fourThreeThree, fourTwoThreeOne } from 'src/formation';
+import { formations } from 'src/formation';
 import { MarkdownPostProcessorContext, Plugin } from 'obsidian';
-import { ParsedCode, Formation } from './ts/interfaces';
-
-const formations: Formation[] = [
-    {
-        name: '442',
-        svg: fourFourTwo
-    },
-    {
-        name: '433',
-        svg: fourThreeThree
-    },
-    {
-        name: '4231',
-        svg: fourTwoThreeOne
-    },
-    {
-        name: '442-diamond',
-        svg: fourFourTwoDiamond
-    }
-];
+import { ParsedCode } from './ts/interfaces';
 
 export default class LineupBuilderPlugin extends Plugin {
 
