@@ -38,12 +38,22 @@ players: Kepa,Chilwell,Silva,Rudi,Azpi,Kante,Kovacic,CHO,Mount,Havertz,Lukaku
 ![Example](media/example_screenshot.png)
 
 
+### SVG Images
+
+The SVG images used are from the [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page), with position names replaced by custom player names.
+
+© [433](https://en.wikipedia.org/wiki/File:Association_football_4-3-3_formation.svg) / Wikimedia Commons User:Threner / [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+© [4231](https://en.wikipedia.org/wiki/File:Association_football_4-2-3-1_formation.svg) / Wikimedia Commons User:Threner / [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+© [442](https://en.wikipedia.org/wiki/File:Association_football_4-4-2_formation.svg) / Wikimedia Commons User:MaxDZ8 / [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+© [442-diamond](https://en.wikipedia.org/wiki/File:Association_football_4-4-2_diamond_formation.svg) / Wikimedia Commons User:Threner / [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+
+
 ## TODO
 
 - [ ] Add 5ATB Formations
 - [ ] Cleanup SVG code to reuse duplicated elements
 - [ ] Investigate different input methods for players
-- [ ] Add wikipedia licenses
+- [x] Add wikimedia credit lines
 - [ ] Submit PR to get it added to the Community Plugins list
 - [ ] Custom team colours
 - [ ] Custom pitches
