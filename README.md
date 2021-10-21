@@ -37,3 +37,13 @@ players: Kepa,Chilwell,Silva,Rudi,Azpi,Kante,Kovacic,CHO,Mount,Havertz,Lukaku
 
 ![Example](media/example_screenshot.png)
 
+
+## TODO
+
+- [ ] Add 5ATB Formations
+- [ ] Cleanup SVG code to reuse duplicated elements
+- [ ] Investigate different input methods for players
+- [ ] Add wikipedia licenses
+- [ ] Submit PR to get it added to the Community Plugins list
+- [ ] Custom team colours
+- [ ] Custom pitches
