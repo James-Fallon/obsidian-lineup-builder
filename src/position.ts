@@ -11,17 +11,19 @@ export const GK: Position = {
 }
 
 // DEFENDERS
+
+// 4ATB Defenders
 export const LB: Position = {
     x: 272,
     y: 1347,
     circleColour: DEFENDER_COLOUR
 }
-export const LCB: Position = {
+export const CBL: Position = {
     x: 571,
     y: 1447,
     circleColour: DEFENDER_COLOUR
 }
-export const RCB: Position = {
+export const CBR: Position = {
     x: 970,
     y: 1447,
     circleColour: DEFENDER_COLOUR
@@ -29,6 +31,33 @@ export const RCB: Position = {
 export const RB: Position = {
     x: 1272,
     y: 1347,
+    circleColour: DEFENDER_COLOUR
+}
+
+// 5ATB Defenders
+export const LWB: Position = {
+    x: 272,
+    y: 1247,
+    circleColour: DEFENDER_COLOUR
+}
+export const LCB: Position = {
+    x: 471,
+    y: 1447,
+    circleColour: DEFENDER_COLOUR
+}
+export const CCB: Position = {
+    x: 772,
+    y: 1447,
+    circleColour: DEFENDER_COLOUR
+}
+export const RCB: Position = {
+    x: 1070,
+    y: 1447,
+    circleColour: DEFENDER_COLOUR
+}
+export const RWB: Position = {
+    x: 1272,
+    y: 1247,
     circleColour: DEFENDER_COLOUR
 }
 

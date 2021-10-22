@@ -18,6 +18,9 @@ The `formation` option is one of the currently available formations:
 - 4231
 - 442
 - 442-diamond
+- 541
+- 523
+- 532
 
 ### Players
 
