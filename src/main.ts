@@ -1,6 +1,7 @@
 import { formations } from 'src/formation';
 import { MarkdownPostProcessorContext, Plugin } from 'obsidian';
 import { ParsedCode } from './ts/interfaces';
+import { buildSvg } from './svg-builder';
 
 export default class LineupBuilderPlugin extends Plugin {
 
@@ -29,7 +30,7 @@ export default class LineupBuilderPlugin extends Plugin {
             );
             block.setAttributeNS(null, "width", String(boxWidth));
             block.setAttributeNS(null, "height", String(boxHeight));
-            block.innerHTML = formation.svg.draw(players);
+            block.innerHTML = buildSvg(formation.positions, players);
             el.appendChild(block);
         };
     }

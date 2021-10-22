@@ -1,36 +1,21 @@
-import { FOUR_FOUR_TWO, FOUR_FOUR_TWO_DIAMOND, FOUR_TWO_THREE_ONE, FOUR_THREE_THREE } from "./svgs";
+import { GK, LB, LCB, RCB, RB, CDM, LCM, RCM, LW, RW, ST, LDM, RDM, LAM, CAM, RAM, LS, RS, RM, LM } from "./position";
 import { Formation } from "./ts/interfaces";
-
-export class FormationSVG {
-    private svgString;
-    constructor(svgString: string){
-        this.svgString = svgString;
-    }
-
-    draw(players: string[]): string {
-        let res: string = this.svgString;
-        for(var i = 0; i < 11; i ++){
-            res = res.replace(`[${i+1}]`, players[i]);
-        }
-        return res
-    }
-}
 
 export const formations: Formation[] = [
     {
         name: '442',
-        svg: new FormationSVG(FOUR_FOUR_TWO)
+        positions: [GK, LB, LCB, RCB, RB, LM, LDM, RDM, RM, LS, RS]
     },
     {
         name: '433',
-        svg: new FormationSVG(FOUR_THREE_THREE)
+        positions: [GK, LB, LCB, RCB, RB, LCM, CDM, RCM, LW, ST, RW]
     },
     {
         name: '4231',
-        svg: new FormationSVG(FOUR_TWO_THREE_ONE)
+        positions: [GK, LB, LCB, RCB, RB, LDM, RDM, LAM, CAM, RAM, ST]
     },
     {
         name: '442-diamond',
-        svg: new FormationSVG(FOUR_FOUR_TWO_DIAMOND)
+        positions: [GK, LB, LCB, RCB, RB, CDM, LM, RM, CAM, LS, RS]
     }
 ];

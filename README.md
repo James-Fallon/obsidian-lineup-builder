@@ -40,7 +40,7 @@ players: Kepa,Chilwell,Silva,Rudi,Azpi,Kante,Kovacic,CHO,Mount,Havertz,Lukaku
 
 ### SVG Images
 
-The SVG images used are from the [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page), with position names replaced by custom player names.
+The images used are generated from SVGs from the [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page), with position names replaced by custom player names.
 
 © [433](https://en.wikipedia.org/wiki/File:Association_football_4-3-3_formation.svg) / Wikimedia Commons User:Threner / [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 

@@ -1,5 +1,3 @@
-import { FormationSVG } from "src/formation";
-
 export interface ParsedCode {
     formation: Formation;
     players: string[];
@@ -7,5 +5,11 @@ export interface ParsedCode {
 
 export interface Formation {
     name: string;
-    svg: FormationSVG;
+    positions: Position[];
+}
+
+export interface Position {
+    x: number;
+    y: number;
+    circleColour: string;
 }
