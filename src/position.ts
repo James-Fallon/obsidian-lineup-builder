@@ -47,7 +47,7 @@ export const LCB: Position = {
 }
 export const CCB: Position = {
     x: 772,
-    y: 1447,
+    y: 1420,
     circleColour: DEFENDER_COLOUR
 }
 export const RCB: Position = {
@@ -69,11 +69,21 @@ export const CDM: Position = {
 }
 export const LDM: Position = {
     x: 551.8,
-    y: 976,
+    y: 1083,
     circleColour: MIDFIELDER_COLOUR
 }
 export const RDM: Position = {
     x: 988.8,
+    y: 1083,
+    circleColour: MIDFIELDER_COLOUR
+}
+export const CML: Position = {
+    x: 571,
+    y: 976,
+    circleColour: MIDFIELDER_COLOUR
+}
+export const CMR: Position = {
+    x: 970,
     y: 976,
     circleColour: MIDFIELDER_COLOUR
 }

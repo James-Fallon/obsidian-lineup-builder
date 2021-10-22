@@ -21,6 +21,9 @@ The `formation` option is one of the currently available formations:
 - 541
 - 523
 - 532
+- 541
+- 352
+- 343
 
 ### Players
 
@@ -61,10 +64,10 @@ This wouldn't have been possible without using [THeK3nger's Chess Plugin](https:
 
 ## TODO
 
-- [ ] Add 5ATB Formations
-- [ ] Cleanup SVG code to reuse duplicated elements
-- [ ] Investigate different input methods for players
+- [x] Add 5ATB Formations
+- [x] Cleanup SVG code to reuse duplicated elements
 - [x] Add wikimedia credit lines
 - [ ] Submit PR to get it added to the Community Plugins list
+- [ ] Investigate different input methods for list of players
 - [ ] Custom team colours
 - [ ] Custom pitches

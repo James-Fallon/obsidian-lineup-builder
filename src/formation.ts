@@ -1,10 +1,10 @@
-import { GK, LB, CBL, CBR, RB, CDM, LCM, RCM, LW, RW, ST, LDM, RDM, LAM, CAM, RAM, LS, RS, RM, LM, LWB, RWB, CCB, LCB, RCB } from "./position";
+import { GK, LB, CBL, CBR, RB, CDM, LCM, RCM, LW, RW, ST, LDM, RDM, LAM, CAM, RAM, LS, RS, RM, LM, LWB, RWB, CCB, LCB, RCB, CML, CMR } from "./position";
 import { Formation } from "./ts/interfaces";
 
 export const formations: Formation[] = [
     {
         name: '442',
-        positions: [GK, LB, CBL, CBR, RB, LM, LDM, RDM, RM, LS, RS]
+        positions: [GK, LB, CBL, CBR, RB, LM, CML, CMR, RM, LS, RS]
     },
     {
         name: '433',
@@ -19,10 +19,6 @@ export const formations: Formation[] = [
         positions: [GK, LB, CBL, CBR, RB, CDM, LM, RM, CAM, LS, RS]
     },
     {
-        name: '443',
-        positions: [GK, LB, CBL, CBR, RB, LM, LDM, RDM, RM, LW, ST, RW]
-    },
-    {
         name: '541',
         positions: [GK, LWB, LCB, CCB, RCB, RWB, LM, LDM, RDM, RM, ST]
     },
@@ -33,5 +29,13 @@ export const formations: Formation[] = [
     {
         name: '532',
         positions: [GK, LWB, LCB, CCB, RCB, RWB, LCM, CDM, RCM, LS, RS]
+    },
+    {
+        name: '343',
+        positions: [GK, LCB, CCB, RCB, LM, LDM, RDM, RM, LW, ST, RW]
+    },
+    {
+        name: '352',
+        positions: [GK, LCB, CCB, RCB, LM, LDM, RDM, RM, CAM, LS, RS]
     }
 ];
