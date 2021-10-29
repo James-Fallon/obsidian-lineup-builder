@@ -20,11 +20,11 @@ export const formations: Formation[] = [
     },
     {
         name: '541',
-        positions: [GK, LWB, LCB, CCB, RCB, RWB, LM, LDM, RDM, RM, ST]
+        positions: [GK, LWB, LCB, CCB, RCB, RWB, LM, CML, CMR, RM, ST]
     },
     {
         name: '523',
-        positions: [GK, LWB, LCB, CCB, RCB, RWB, LDM, RDM, LW, ST, RW]
+        positions: [GK, LWB, LCB, CCB, RCB, RWB, CML, CMR, LW, ST, RW]
     },
     {
         name: '532',
@@ -32,7 +32,7 @@ export const formations: Formation[] = [
     },
     {
         name: '343',
-        positions: [GK, LCB, CCB, RCB, LM, LDM, RDM, RM, LW, ST, RW]
+        positions: [GK, LCB, CCB, RCB, LM, CML, CMR, RM, LW, ST, RW]
     },
     {
         name: '352',
