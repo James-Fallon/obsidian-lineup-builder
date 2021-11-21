@@ -19,6 +19,18 @@ export const formations: Formation[] = [
         positions: [GK, LB, CBL, CBR, RB, CDM, LM, RM, CAM, LS, RS]
     },
     {
+        name: '4411',
+        positions: [GK, LB, CBL, CBR, RB, LM, CML, CMR, RM, CAM, ST]
+    },
+    {
+        name: '4141',
+        positions: [GK, LB, CBL, CBR, RB, CDM, LM, CML, CMR, RM, ST]
+    },
+    {
+        name: '424',
+        positions: [GK, LB, CBL, CBR, RB, CML, CMR, LAM, RAM, LS, RS]
+    },	
+    {
         name: '541',
         positions: [GK, LWB, LCB, CCB, RCB, RWB, LM, CML, CMR, RM, ST]
     },
