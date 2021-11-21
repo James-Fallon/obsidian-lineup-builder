@@ -1,6 +1,6 @@
 {
     "name": "obsidian-lineup-builder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Build football lineups in Obsidian.",
     "main": "src/main.js",
     "scripts": {
