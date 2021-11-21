@@ -45,12 +45,23 @@ export default class LineupBuilderPlugin extends Plugin {
         let players: string[] = [];
         let playersLine: string = lines[1];
         if (playersLine.startsWith("players: ")) {
-            players = playersLine.replace("players: ", "").split(',');
+            players = this.escapeHTML(playersLine).replace("players: ", "").split(',');
         }
 
         return {
             formation: formations.find(x => x.name === formation),
             players
         };
+    }
+
+    private static escapeHTML(str: string): string{
+        // Encode untrusted data before we inject it into HTML body - https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+        return str.replace(/[&<>'"]/g, tag => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            "'": '&#39;',
+            '"': '&quot;'
+        }[tag]));
     }
 }
