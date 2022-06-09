@@ -66,7 +66,7 @@ This wouldn't have been possible without using [THeK3nger's Chess Plugin](https:
 - [x] Add 5ATB Formations
 - [x] Cleanup SVG code to reuse duplicated elements
 - [x] Add wikimedia credit lines
-- [ ] Submit PR to get it added to the Community Plugins list
+- [x] Submit PR to get it added to the Community Plugins list
 - [ ] Investigate different input methods for list of players
 - [ ] Custom team colours
 - [ ] Custom pitches
